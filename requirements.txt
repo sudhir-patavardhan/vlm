@@ -1,0 +1,21 @@
+# Core dependencies
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+tensorboard>=2.12.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# RAG components
+faiss-cpu>=1.7.4  # or faiss-gpu for GPU support
+langchain>=0.0.267
+chromadb>=0.4.6
+
+# Sanskrit NLP tools
+sanskrit-parser>=0.0.1  # Replace with actual Sanskrit NLP libraries
+
+# Testing and development
+pytest>=7.3.1
+black>=23.3.0
+isort>=5.12.0
+mypy>=1.3.0
